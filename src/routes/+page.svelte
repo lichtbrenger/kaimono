@@ -47,7 +47,8 @@
       Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   }
   #name {
-    width: 100%;
+    width: 30%;
+    font-size: 25px;
   }
   form {
     margin-bottom: 0.5em;
@@ -56,8 +57,8 @@
     border-radius: 30px;
     background: #efe7db; 
     outline: none;
-    margin: 0;
-    padding-left: 100px;
+    margin: auto;
+    padding-left: 20px;
     color: #dc4f21;
   }
   input[type="text"]:focus {
@@ -93,15 +94,18 @@
     color: #777;
   }
   li {
+    width: 30%;
     list-style: none;
     padding: 6px 10px;
-    border-bottom: 1px solid #efe7db;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: #efe7db;
   }
   ul {
     padding-left: 0;
   }
   span {
-    font-size: 36px;
+    font-size: 25px;
     color: #dc4f21;
   }
   .done span {
